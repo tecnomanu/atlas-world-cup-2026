@@ -1,0 +1,63 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+next-env.d.ts
+
+# build outputs
+/dist/
+/dist-pages/
+/outputs/
+/work/
+
+# OpenAI Sites / Vinext / Cloudflare runtime (local only)
+.openai/
+.vinext/
+.sites-runtime/
+.wrangler/
+
+# Template leftovers not used by the atlas site
+/db/
+/drizzle/
+/drizzle.config.ts
+/examples/
+/build/
+/app/chatgpt-auth.ts
+
+# OpenAI Sites CI / sandbox scripts
+/scripts/install-ci.sh
+/scripts/sites-env.sh
+/scripts/validate-artifact.sh
+/scripts/build-verified.sh

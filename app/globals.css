@@ -1006,12 +1006,12 @@ kbd {
 .node-inspector {
   position: absolute;
   z-index: 31;
-  top: 78px;
+  top: 124px;
   right: 18px;
   bottom: 72px;
-  width: min(370px, calc(100vw - 170px));
-  padding: 27px;
-  border-radius: 22px;
+  width: min(340px, calc(100vw - 170px));
+  padding: 22px;
+  border-radius: 20px;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: rgba(129, 144, 165, 0.35) transparent;
@@ -1031,7 +1031,7 @@ kbd {
 .inspector-signal.tone-coral > span { background: var(--coral); color: var(--coral); }
 .inspector-signal small { color: var(--muted); font-family: var(--font-mono); font-size: 8px; letter-spacing: 0.12em; }
 
-.node-inspector h2 { margin-top: 15px; font-size: 43px; line-height: 0.94; }
+.node-inspector h2 { margin-top: 12px; font-size: 36px; line-height: 0.94; }
 .node-metric { margin: 9px 0 0; color: var(--lime); font-family: var(--font-mono); font-size: 11px; }
 .node-evidence { display: inline-flex; margin-top: 10px; padding: 5px 8px; align-items: center; gap: 6px; border: 1px solid rgba(129, 144, 165, 0.18); border-radius: 999px; color: var(--muted); font-family: var(--font-mono); font-size: 7px; text-transform: uppercase; }
 .node-evidence .status-dot { width: 6px; height: 6px; }
@@ -1138,15 +1138,20 @@ kbd {
   flex: 0 0 auto;
 }
 
-.map-hint {
+.map-chrome {
   position: absolute;
   z-index: 20;
-  bottom: 66px;
-  left: 50%;
+  right: 18px;
+  bottom: 18px;
   display: flex;
-  min-height: 38px;
+  align-items: center;
+  gap: 8px;
+}
+
+.map-hint {
+  display: flex;
+  height: 38px;
   padding: 0 14px;
-  transform: translateX(-50%);
   align-items: center;
   gap: 9px;
   border-radius: 13px;
@@ -1156,10 +1161,6 @@ kbd {
 }
 
 .zoom-controls {
-  position: absolute;
-  z-index: 20;
-  right: 18px;
-  bottom: 18px;
   display: flex;
   height: 38px;
   padding: 3px;
@@ -1290,7 +1291,7 @@ kbd {
   .reading-panel h2, .node-inspector h2 { font-size: 37px; }
   .map-hint { display: none; }
   .evidence-legend { right: 185px; bottom: 86px; left: 10px; overflow-x: auto; }
-  .zoom-controls { right: 10px; bottom: 86px; }
+  .map-chrome { right: 10px; bottom: 86px; }
   .atlas-canvas { height: calc(100% - 72px); }
 }
 

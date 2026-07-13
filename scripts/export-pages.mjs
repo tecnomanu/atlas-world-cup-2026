@@ -1,6 +1,7 @@
 import { cpSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { extname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { assertClientMarkers } from "./assert-client-markers.mjs";
 
 const root = new URL("../", import.meta.url);
 const clientDir = new URL("../dist/client/", import.meta.url);
@@ -56,12 +57,6 @@ if (/(?:href|src)=\"\/(?:assets|favicon\.svg|world-cup-2026-mark\.svg)/.test(exp
   throw new Error("Static export still contains root-relative public paths");
 }
 
-const clientBundle = readdirSync(new URL("assets/", outputDir))
-  .filter((name) => name.startsWith("page-") && name.endsWith(".js"))
-  .map((name) => readFileSync(new URL(`assets/${name}`, outputDir), "utf8"))
-  .join("\n");
-for (const marker of ["Registro completo de investigación", "URLs únicas", "Proveedores involucrados", "Procesos conectados", "Fuegos artificiales y pirotecnia"]) {
-  if (!clientBundle.includes(marker)) throw new Error(`Static client bundle is missing: ${marker}`);
-}
+assertClientMarkers(new URL("assets/", outputDir));
 
 console.log(`Static GitHub Pages export ready at ${outputDir.pathname.replace(root.pathname, "")}`);

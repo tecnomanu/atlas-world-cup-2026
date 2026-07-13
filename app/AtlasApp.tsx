@@ -917,21 +917,23 @@ export default function AtlasApp() {
       {selectedNode && <NodeInspector node={selectedNode} onClose={() => setSelectedId(null)} onJump={focusNode} />}
       {selectedCity && <CityInspector city={selectedCity} onClose={() => setSelectedCity(null)} onOpenDomain={focusNode} />}
 
-      <div className="map-hint glass">
-        <span className="live-dot" />
-        {t.mapHint}
-      </div>
       <aside className="evidence-legend glass" aria-label={t.evidenceTypesAria}>
         <b>{t.evidenceTitle}</b>
         {evidenceLegend.map(([label, status]) => (
           <span key={status}><i className={`status-dot ${status}`} />{label}</span>
         ))}
       </aside>
-      <div className="zoom-controls glass" aria-label={t.mapControlsAria}>
-        <button onClick={() => setScale((value) => Math.min(1.8, value + 0.12))} aria-label={t.zoomInAria}>+</button>
-        <span>{Math.round(scale * 100)}%</span>
-        <button onClick={() => setScale((value) => Math.max(MIN_SCALE, value - 0.12))} aria-label={t.zoomOutAria}>−</button>
-        <button onClick={resetMap} aria-label={t.resetMapAria}>⌂</button>
+      <div className="map-chrome">
+        <div className="map-hint glass">
+          <span className="live-dot" />
+          {t.mapHint}
+        </div>
+        <div className="zoom-controls glass" aria-label={t.mapControlsAria}>
+          <button onClick={() => setScale((value) => Math.min(1.8, value + 0.12))} aria-label={t.zoomInAria}>+</button>
+          <span>{Math.round(scale * 100)}%</span>
+          <button onClick={() => setScale((value) => Math.max(MIN_SCALE, value - 0.12))} aria-label={t.zoomOutAria}>−</button>
+          <button onClick={resetMap} aria-label={t.resetMapAria}>⌂</button>
+        </div>
       </div>
 
       {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} onSelect={(id) => { setSearchOpen(false); focusNode(id); }} onSelectCity={(city) => { setSearchOpen(false); focusCity(city); }} />}

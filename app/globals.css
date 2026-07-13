@@ -434,7 +434,7 @@ button {
 
 .brand-name {
   font-family: var(--font-display);
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 700;
   line-height: 0.94;
   letter-spacing: 0.025em;
@@ -500,7 +500,7 @@ button {
   border-radius: 13px;
   background: transparent;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
   cursor: pointer;
   transition: color 180ms ease, background 180ms ease, border-color 180ms ease;
 }
@@ -531,7 +531,7 @@ button {
   width: 22px;
   color: inherit;
   font-family: var(--font-mono);
-  font-size: 19px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -545,7 +545,7 @@ button {
   border-top: 1px solid rgba(129, 144, 165, 0.16);
   color: var(--muted);
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 9px;
   text-transform: uppercase;
 }
 
@@ -590,7 +590,7 @@ button {
   border-radius: 8px;
   background: transparent;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.06em;
   cursor: pointer;
@@ -612,13 +612,13 @@ button {
   gap: 10px;
   border-radius: 14px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
   cursor: pointer;
 }
 
 .search-trigger > span:first-child {
   color: var(--paper);
-  font-size: 20px;
+  font-size: 21px;
 }
 
 kbd {
@@ -634,7 +634,7 @@ kbd {
   background: rgba(255, 255, 255, 0.04);
   color: var(--muted);
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .filter-dock {
@@ -656,7 +656,7 @@ kbd {
   border-radius: 10px;
   background: transparent;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 11px;
   cursor: pointer;
 }
 
@@ -700,7 +700,7 @@ kbd {
   padding: 0 8px;
   color: var(--muted);
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -713,7 +713,7 @@ kbd {
   border-radius: 8px;
   background: transparent;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 10px;
   cursor: pointer;
 }
 
@@ -881,7 +881,7 @@ kbd {
   align-items: center;
   justify-content: space-between;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .hero-stats span {
@@ -891,7 +891,7 @@ kbd {
   white-space: nowrap;
 }
 
-.hero-stats b { color: var(--paper); font-family: var(--font-mono); font-size: 11px; }
+.hero-stats b { color: var(--paper); font-family: var(--font-mono); font-size: 14px; }
 .hero-stats i { width: 3px; height: 3px; border-radius: 50%; background: rgba(129, 144, 165, 0.65); }
 
 .timeline-list,
@@ -1053,22 +1053,22 @@ kbd {
 
 .area-chips span {
   display: inline-flex;
-  min-height: 25px;
-  padding: 0 9px;
+  min-height: 28px;
+  padding: 0 11px;
   align-items: center;
   border: 1px solid rgba(57, 215, 255, 0.25);
   border-radius: 999px;
   background: rgba(57, 215, 255, 0.045);
   color: #b9cbd7;
-  font-size: 8px;
+  font-size: 11px;
   line-height: 1;
 }
 .country-chips span { border-color: rgba(199, 255, 69, 0.22); background: rgba(199, 255, 69, 0.035); }
 
 .inspector-section { margin-top: 23px; padding-top: 18px; border-top: 1px solid rgba(129, 144, 165, 0.15); }
-.inspector-section > p { margin: 0 0 11px; color: var(--muted); font-family: var(--font-mono); font-size: 8px; letter-spacing: 0.12em; text-transform: uppercase; }
+.inspector-section > p { margin: 0 0 11px; color: var(--muted); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
 .inspector-section ul { display: flex; margin: 0; padding: 0; flex-direction: column; gap: 8px; list-style: none; }
-.inspector-section li { position: relative; display: flex; padding-left: 0; align-items: flex-start; gap: 8px; color: #b6c2cb; font-size: 10px; line-height: 1.4; }
+.inspector-section li { position: relative; display: flex; padding-left: 0; align-items: flex-start; gap: 8px; color: #b6c2cb; font-size: 12px; line-height: 1.4; }
 .inspector-section li .status-dot { width: 6px; height: 6px; margin-top: 4px; flex: 0 0 auto; }
 .organization-list li { padding: 7px 9px; border: 1px solid rgba(129, 144, 165, 0.13); border-radius: 7px; background: rgba(255, 255, 255, 0.018); }
 .supplier-list li { padding: 8px 10px; border: 1px solid rgba(129, 144, 165, 0.24); border-radius: 7px; background: rgba(129, 144, 165, 0.055); }
@@ -1107,17 +1107,17 @@ kbd {
   bottom: 18px;
   left: 158px;
   display: flex;
-  min-height: 38px;
-  padding: 0 11px;
+  min-height: 42px;
+  padding: 0 13px;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   border-radius: 13px;
 }
 
 .evidence-legend b {
   color: var(--paper);
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -1125,16 +1125,16 @@ kbd {
 .evidence-legend > span {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   color: var(--muted);
-  font-size: 7px;
+  font-size: 11px;
   white-space: nowrap;
 }
 
 .evidence-legend .status-dot {
   display: inline-block;
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
   flex: 0 0 auto;
 }
 
@@ -1156,13 +1156,13 @@ kbd {
   gap: 9px;
   border-radius: 13px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 10px;
   white-space: nowrap;
 }
 
 .zoom-controls {
   display: flex;
-  height: 38px;
+  height: 42px;
   padding: 3px;
   align-items: center;
   border-radius: 12px;
@@ -1171,18 +1171,20 @@ kbd {
 .zoom-controls button {
   appearance: none;
   display: grid;
-  width: 32px;
-  height: 30px;
+  width: 36px;
+  height: 34px;
   place-items: center;
   border: 0;
   border-radius: 8px;
   background: transparent;
   color: var(--paper);
+  font-size: 18px;
+  line-height: 1;
   cursor: pointer;
 }
 
 .zoom-controls button:hover { background: rgba(255, 255, 255, 0.05); }
-.zoom-controls span { min-width: 42px; color: var(--muted); font-family: var(--font-mono); font-size: 8px; text-align: center; }
+.zoom-controls span { min-width: 48px; color: var(--muted); font-family: var(--font-mono); font-size: 12px; text-align: center; }
 
 .search-overlay {
   position: fixed;
@@ -1260,20 +1262,20 @@ kbd {
   .brand-dot.dot-two { right: 5px; top: 6px; }
   .brand-dot.dot-three { right: 5px; bottom: 4px; }
   .nav-list { width: 100%; padding: 5px; flex-direction: row; justify-content: space-around; overflow-x: auto; }
-  .nav-item { min-width: 48px; min-height: 50px; padding: 3px; flex-direction: column; justify-content: center; gap: 1px; font-size: 7px; }
+  .nav-item { min-width: 48px; min-height: 50px; padding: 3px; flex-direction: column; justify-content: center; gap: 1px; font-size: 8px; }
   .nav-item.is-active::before { top: auto; bottom: -5px; left: 50%; width: 26px; height: 3px; transform: translateX(-50%); }
-  .nav-mark { height: 24px; font-size: 18px; }
+  .nav-mark { height: 24px; font-size: 19px; }
   .top-tools { top: 10px; right: 10px; left: 10px; align-items: stretch; }
   .search-trigger { min-width: 44px; width: 44px; padding: 0; justify-content: center; }
   .search-trigger > span:nth-child(2), .search-trigger kbd { display: none; }
   .filter-dock { flex: 1; overflow-x: auto; }
-  .filter-dock button { flex: 1; min-width: max-content; padding: 0 8px; font-size: 8px; }
+  .filter-dock button { flex: 1; min-width: max-content; padding: 0 8px; font-size: 9px; }
   .side-tools { top: 62px; right: 10px; gap: 6px; }
   .lang-dock { height: 36px; }
-  .lang-dock button { height: 26px; min-width: 32px; font-size: 9px; }
+  .lang-dock button { height: 26px; min-width: 32px; font-size: 10px; }
   .metric-mode-dock { height: 36px; }
   .metric-mode-dock > span { display: none; }
-  .metric-mode-dock button { height: 26px; padding: 0 9px; font-size: 8px; }
+  .metric-mode-dock button { height: 26px; padding: 0 9px; font-size: 9px; }
   .editorial-panel,
   .node-inspector {
     top: auto;
@@ -1298,7 +1300,7 @@ kbd {
 @media (max-width: 540px) {
   .nav-item { min-width: 44px; }
   .nav-list { justify-content: flex-start; }
-  .hero-stats { font-size: 8px; }
+  .hero-stats { font-size: 11px; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .search-box { margin: 0 10px; }
   .evidence-legend { right: 10px; bottom: 132px; justify-content: center; }

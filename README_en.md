@@ -6,6 +6,17 @@
   </p>
   <p>Interactive map of the people, organizations, processes, countries, and evidence behind the FIFA World Cup 2026.</p>
   <p><a href="README.md">Español</a> · <strong>English</strong></p>
+  <p>
+    <a href="https://tecnomanu.github.io/atlas-world-cup-2026/?lang=es"><strong>Abrir sitio ES</strong></a>
+    ·
+    <a href="https://tecnomanu.github.io/atlas-world-cup-2026/?lang=en"><strong>Open site EN</strong></a>
+  </p>
+  <p>
+    <a href="https://tecnomanu.github.io/atlas-world-cup-2026/?lang=en"><img alt="Live" src="https://img.shields.io/badge/live-GitHub%20Pages-111827?style=flat&logo=github&logoColor=c7ff45&labelColor=050a12" /></a>
+    <img alt="Version" src="https://img.shields.io/badge/version-1.4.0-c7ff45?style=flat&labelColor=050a12" />
+    <a href="https://github.com/tecnomanu/atlas-world-cup-2026/actions/workflows/pages.yml"><img alt="Pages" src="https://github.com/tecnomanu/atlas-world-cup-2026/actions/workflows/pages.yml/badge.svg" /></a>
+    <img alt="Node" src="https://img.shields.io/badge/node-%3E%3D22.13-339933?style=flat&logo=node.js&logoColor=white&labelColor=050a12" />
+  </p>
 </div>
 
 ## What it includes

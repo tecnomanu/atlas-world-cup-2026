@@ -1,11 +1,11 @@
 <div align="center">
   <img src="public/world-cup-2026-mark.svg" width="72" alt="Emblema 2026" />
   <h1>Atlas Operativo del Mundial 2026</h1>
+  <p><strong>Español</strong> · <a href="README_en.md">Go to English version</a></p>
   <p>
     <img src="public/banner-atlas-es.png" alt="Vista del Atlas Operativo del Mundial 2026" width="100%" />
   </p>
   <p>Mapa interactivo de las personas, organizaciones, procesos, países y evidencias detrás de la Copa Mundial de la FIFA 2026.</p>
-  <p><strong>Español</strong> · <a href="README_en.md">English</a></p>
   <p>
     <a href="https://tecnomanu.github.io/atlas-world-cup-2026/?lang=es"><strong>Abrir sitio ES</strong></a>
     ·

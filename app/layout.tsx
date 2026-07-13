@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   description:
     "Mapa interactivo de las personas, organizaciones, procesos y evidencias detrás de la Copa Mundial de la FIFA 2026.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: [{ url: "/favicon.svg?v=4", type: "image/svg+xml" }],
+    shortcut: "/favicon.svg?v=4",
   },
 };
 

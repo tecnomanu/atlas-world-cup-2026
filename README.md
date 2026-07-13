@@ -2,6 +2,7 @@
   <img src="public/world-cup-2026-mark.svg" width="72" alt="Emblema 2026" />
   <h1>Atlas Operativo del Mundial 2026</h1>
   <p>Mapa interactivo de las personas, organizaciones, procesos, países y evidencias detrás de la Copa Mundial de la FIFA 2026.</p>
+  <p><strong>Español</strong> · <a href="README_en.md">English</a></p>
 </div>
 
 ## Qué contiene
@@ -19,6 +20,18 @@
 - Cadenas de solicitud, presupuesto, compra, permiso, entrega, operación y auditoría.
 - Cinco estados de evidencia: confirmada, derivada, estimada, no pública y futura.
 - 126 referencias numeradas y 115 URLs únicas en la investigación actual.
+
+## Idiomas / Languages
+
+La app soporta **español** (default) e **inglés**.
+
+- Selector **ES / EN** arriba a la derecha.
+- URL: `?lang=en` o `?lang=es`.
+- Preferencia guardada en `localStorage`.
+
+Docs de investigación siguen en español por ahora.
+
+English README: [README_en.md](README_en.md).
 
 ## Experiencia
 
@@ -65,12 +78,16 @@ npm run build:pages
 
 Genera un sitio estático portable en `dist-pages/`.
 
+Sitio publicado: https://tecnomanu.github.io/atlas-world-cup-2026/
+
 ## Estructura relevante
 
 ```text
 app/
-  page.tsx                         interfaz y navegación
-  world-data.ts                   grafo, sedes y contenido operativo
+  page.tsx                         entrada
+  AtlasApp.tsx                    interfaz y navegación i18n
+  world-data.ts                   grafo, sedes y contenido (ES)
+  i18n/                           locales UI + overlays EN
   research-sources.generated.ts   índice generado de fuentes
 docs/
   mundial-2026-mapa-organizacion-investigacion.md
@@ -79,8 +96,7 @@ public/
 scripts/
   export-pages.mjs                export estático para GitHub Pages
   extract-research-sources.mjs    regenera índice de fuentes
-```
-  extract-research-sources.mjs
+  gen-content-en.mjs              regenera overlays EN del atlas
 .github/workflows/
   pages.yml
 ```

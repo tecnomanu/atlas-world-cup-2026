@@ -572,6 +572,36 @@ button {
   gap: 10px;
 }
 
+.lang-dock {
+  display: flex;
+  height: 38px;
+  padding: 4px;
+  align-items: center;
+  gap: 2px;
+  border-radius: 12px;
+}
+
+.lang-dock button {
+  appearance: none;
+  height: 28px;
+  min-width: 36px;
+  padding: 0 9px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.lang-dock button.is-active {
+  border-color: rgba(199, 255, 69, 0.38);
+  background: rgba(199, 255, 69, 0.07);
+  color: var(--paper);
+}
+
 .search-trigger {
   appearance: none;
   display: flex;
@@ -647,11 +677,17 @@ kbd {
   color: var(--paper);
 }
 
-.metric-mode-dock {
+.side-tools {
   position: absolute;
   z-index: 20;
   top: 72px;
   right: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.metric-mode-dock {
   display: flex;
   height: 38px;
   padding: 4px;
@@ -1231,7 +1267,10 @@ kbd {
   .search-trigger > span:nth-child(2), .search-trigger kbd { display: none; }
   .filter-dock { flex: 1; overflow-x: auto; }
   .filter-dock button { flex: 1; min-width: max-content; padding: 0 8px; font-size: 8px; }
-  .metric-mode-dock { top: 62px; right: 10px; height: 36px; }
+  .side-tools { top: 62px; right: 10px; gap: 6px; }
+  .lang-dock { height: 36px; }
+  .lang-dock button { height: 26px; min-width: 32px; font-size: 9px; }
+  .metric-mode-dock { height: 36px; }
   .metric-mode-dock > span { display: none; }
   .metric-mode-dock button { height: 26px; padding: 0 9px; font-size: 8px; }
   .editorial-panel,

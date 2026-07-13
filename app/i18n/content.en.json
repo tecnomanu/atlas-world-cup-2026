@@ -1,0 +1,2688 @@
+{
+  "clusters": [
+    {
+      "id": "direction",
+      "label": "Direction and control",
+      "subtitle": "Governance · money · impact"
+    },
+    {
+      "id": "competition",
+      "label": "Competition",
+      "subtitle": "Match · teams · ceremony"
+    },
+    {
+      "id": "tech-media",
+      "label": "Technology and signal",
+      "subtitle": "Refereeing · platforms · broadcast"
+    },
+    {
+      "id": "city-operation",
+      "label": "City and operations",
+      "subtitle": "Stadiums · security · health · mobility"
+    },
+    {
+      "id": "experience",
+      "label": "Experience and services",
+      "subtitle": "Fans · hospitality · lodging"
+    },
+    {
+      "id": "brand-business",
+      "label": "Brand and business",
+      "subtitle": "Content · sponsors · retail"
+    }
+  ],
+  "editorial": {
+    "overview": {
+      "eyebrow": "FIFA WORLD CUP 2026 · OPERATIONAL ATLAS",
+      "title": "300,000 people. 104 matches. One system.",
+      "description": "Explore who requested, paid for, designed, manufactured, regulated, and operated each piece of the World Cup."
+    },
+    "areas": {
+      "eyebrow": "18 OPERATIONAL DOMAINS",
+      "title": "The World Cup, split by systems.",
+      "description": "Open any area without hunting through the swarm. Each domain connects people, organizations, processes, countries, and evidence."
+    },
+    "matches": {
+      "eyebrow": "ENTER WITHOUT GETTING LOST",
+      "title": "A match is a temporary city.",
+      "description": "Pick a matchday moment and the map will automatically focus the organizations, people, and processes that make it possible."
+    },
+    "venues": {
+      "eyebrow": "16 VENUES · 3 COUNTRIES",
+      "title": "The host-city brand does not always match the real city.",
+      "description": "Dallas plays in Arlington, Boston in Foxborough, and San Francisco Bay Area in Santa Clara. Open a venue to see who owns, operates, pays, and regulates."
+    },
+    "people": {
+      "eyebrow": "HUMAN CENSUS",
+      "title": "There is no single people number.",
+      "description": "We separate accredited staff, expanded operations, and the global chain to avoid double-counting people who held more than one role."
+    },
+    "evidence": {
+      "eyebrow": "TRACEABILITY",
+      "title": "Atlas reference index.",
+      "description": "Each point appears as an independent block with its sources linked one under another. Confidence colors stay visible on the map."
+    }
+  },
+  "topStats": [
+    [
+      "104",
+      "matches"
+    ],
+    [
+      "48",
+      "national teams"
+    ],
+    [
+      "18",
+      "operational domains"
+    ],
+    [
+      "16",
+      "venues"
+    ],
+    [
+      "3",
+      "countries"
+    ],
+    [
+      "126",
+      "research sources"
+    ],
+    [
+      "600+",
+      "official sites"
+    ],
+    [
+      "220+",
+      "territories with coverage"
+    ],
+    [
+      "13 PB",
+      "data processed"
+    ],
+    [
+      "7.7M+",
+      "Fan Festivals"
+    ]
+  ],
+  "hostCities": [
+    {
+      "country": "Canada",
+      "cities": [
+        {
+          "id": "toronto",
+          "city": "Toronto",
+          "country": "Canada",
+          "venue": "Toronto Stadium / BMO Field",
+          "interface": "City of Toronto FIFA World Cup 2026 municipal secretariat",
+          "leaders": [
+            "Sharon Bollenbach · Executive Director"
+          ],
+          "ownerOperator": "City of Toronto · operated by MLSE",
+          "publicLayer": "Toronto + Ontario + Canada",
+          "mobility": "TTC, Metrolinx/GO, UP Express, and MTO",
+          "finance": "CAD 380 million direct: operating + capital",
+          "sourceLabel": "City of Toronto · World Cup documentation"
+        },
+        {
+          "id": "vancouver",
+          "city": "Vancouver",
+          "country": "Canada",
+          "venue": "BC Place Vancouver",
+          "interface": "British Columbia–City of Vancouver–PavCo consortium",
+          "leaders": [
+            "Distributed public leadership; no single CEO"
+          ],
+          "ownerOperator": "Province of British Columbia · PavCo",
+          "publicLayer": "Province + city + First Nations + Canada",
+          "mobility": "TransLink and SkyTrain",
+          "finance": "Estimated net provincial cost CAD 90–114 million",
+          "sourceLabel": "Vancouver FIFA World Cup 26"
+        }
+      ]
+    },
+    {
+      "country": "Mexico",
+      "cities": [
+        {
+          "id": "mexico-city",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "venue": "Estadio Ciudad de Mexico / Azteca-Banorte",
+          "interface": "Mexico City World Cup Committee",
+          "leaders": [
+            "Clara Brugada · Head of Government"
+          ],
+          "ownerOperator": "Private stadium operator",
+          "publicLayer": "Federal government + Mexico City + boroughs",
+          "mobility": "Metro, Metrobús, Light Rail, RTP, AICM, and AIFA",
+          "finance": "Public opening-match operations; distributed urban budget",
+          "sourceLabel": "Mexico City Government"
+        },
+        {
+          "id": "guadalajara",
+          "city": "Guadalajara",
+          "country": "Mexico",
+          "venue": "Guadalajara Stadium / Akron, Zapopan",
+          "interface": "Jalisco–Zapopan–local committee coordination",
+          "leaders": [
+            "Juan José Frangie · designated public lead"
+          ],
+          "ownerOperator": "Private venue linked to Chivas/Grupo Omnilife",
+          "publicLayer": "Jalisco + Zapopan + metro area",
+          "mobility": "SITEUR, Mi Macro, buses, and shuttles",
+          "finance": "Consolidated budget not published",
+          "sourceLabel": "FIFA · Guadalajara Host City"
+        },
+        {
+          "id": "monterrey",
+          "city": "Monterrey",
+          "country": "Mexico",
+          "venue": "Monterrey Stadium / BBVA, Guadalupe",
+          "interface": "Monterrey 2026 Organizing Committee",
+          "leaders": [
+            "Pedro Esquivel · identified public lead"
+          ],
+          "ownerOperator": "Rayados / FEMSA ecosystem",
+          "publicLayer": "Nuevo León + Guadalupe + metro area",
+          "mobility": "Metrorrey, Transmetro, and road operations",
+          "finance": "Line items split across state, municipalities, and operator",
+          "sourceLabel": "FIFA · Monterrey Host City"
+        }
+      ]
+    },
+    {
+      "country": "United States",
+      "cities": [
+        {
+          "id": "atlanta",
+          "city": "Atlanta",
+          "country": "United States",
+          "venue": "Mercedes-Benz Stadium",
+          "interface": "Atlanta World Cup Host Committee / Atlanta Sports Council",
+          "leaders": [
+            "Dan Corso · President"
+          ],
+          "ownerOperator": "GWCCA public + AMB Sports & Entertainment",
+          "publicLayer": "City of Atlanta + Georgia + GWCCA",
+          "mobility": "MARTA, GDOT y aeropuerto ATL",
+          "finance": "State funds and federal grants; total not consolidated",
+          "sourceLabel": "Atlanta Host Committee"
+        },
+        {
+          "id": "boston",
+          "city": "Boston",
+          "country": "United States",
+          "venue": "Gillette Stadium, Foxborough",
+          "interface": "Boston 26 nonprofit",
+          "leaders": [
+            "Mike Loynd · CEO",
+            "Ron O’Hanley · Honorary Board"
+          ],
+          "ownerOperator": "Kraft Group · private venue",
+          "publicLayer": "Foxborough + Massachusetts + Boston 26",
+          "mobility": "MBTA commuter rail y buses expresos",
+          "finance": "Local security reported; full budget not published",
+          "sourceLabel": "Boston 26"
+        },
+        {
+          "id": "dallas",
+          "city": "Dallas",
+          "country": "United States",
+          "venue": "AT&T Stadium, Arlington",
+          "interface": "North Texas FWC Organizing Committee",
+          "leaders": [
+            "Monica Paul · President",
+            "Dan Hunt y Nina Vaca · Co-chairs"
+          ],
+          "ownerOperator": "City of Arlington · Dallas Cowboys bajo lease",
+          "publicLayer": "Dallas–Arlington–Fort Worth + Texas",
+          "mobility": "DART, TRE, Trinity Metro, shuttles y GoPass",
+          "finance": "USD 51.5m FEMA + USD 10.03m FTA; also hosts the IBC",
+          "sourceLabel": "Dallas FIFA World Cup 26"
+        },
+        {
+          "id": "houston",
+          "city": "Houston",
+          "country": "United States",
+          "venue": "NRG Stadium",
+          "interface": "Houston Host Committee",
+          "leaders": [
+            "Chris Canetti · President"
+          ],
+          "ownerOperator": "Harris County/HCHSA · contracted management",
+          "publicLayer": "Houston + Harris County + Texas",
+          "mobility": "METRORail, buses y shuttles",
+          "finance": "USD 9.092m FTA; security in separate line items",
+          "sourceLabel": "Houston Host Committee"
+        },
+        {
+          "id": "kansas-city",
+          "city": "Kansas City",
+          "country": "United States",
+          "venue": "Arrowhead Stadium",
+          "interface": "KC2026 nonprofit regional",
+          "leaders": [
+            "Pam Kramer · CEO",
+            "Clark Hunt y Cliff Illig · Honorary Co-chairs"
+          ],
+          "ownerOperator": "Jackson County Sports Complex Authority + Chiefs",
+          "publicLayer": "Missouri–Kansas + municipios metropolitanos",
+          "mobility": "KCATA, RideKC y shuttles",
+          "finance": "USD 79.36m in reported federal programs",
+          "sourceLabel": "KC2026"
+        },
+        {
+          "id": "los-angeles",
+          "city": "Los Angeles",
+          "country": "United States",
+          "venue": "SoFi Stadium, Inglewood",
+          "interface": "LA World Cup Host Committee / LASEC",
+          "leaders": [
+            "Kathryn Schloessman · CEO"
+          ],
+          "ownerOperator": "StadCo / Hollywood Park",
+          "publicLayer": "Inglewood + LA County + region",
+          "mobility": "LA Metro y red regional",
+          "finance": "Federal/state grants; total not consolidated",
+          "sourceLabel": "Los Angeles Host Committee"
+        },
+        {
+          "id": "miami",
+          "city": "Miami",
+          "country": "United States",
+          "venue": "Hard Rock Stadium, Miami Gardens",
+          "interface": "Miami Host Committee 501(c)(3)",
+          "leaders": [
+            "Alina T. Hudak · President & CEO"
+          ],
+          "ownerOperator": "Miami Dolphins / Hard Rock Stadium",
+          "publicLayer": "Miami-Dade + Miami Gardens + 34 municipios",
+          "mobility": "Metrorail/Tri-Rail hubs y shuttles",
+          "finance": "Approved services and subsidies; close-out pending",
+          "sourceLabel": "Miami Host Committee"
+        },
+        {
+          "id": "nynj",
+          "city": "New York/New Jersey",
+          "country": "United States",
+          "venue": "MetLife Stadium, East Rutherford",
+          "interface": "NYNJ Host Committee",
+          "leaders": [
+            "Alex Lasry · CEO",
+            "Roger Kamau · CFO"
+          ],
+          "ownerOperator": "New Meadowlands Stadium Company / Giants–Jets",
+          "publicLayer": "New Jersey + New York + autoridades regionales",
+          "mobility": "NJ TRANSIT, MTA, buses y shuttles",
+          "finance": "Extraordinary costs; final reconciliation pending",
+          "sourceLabel": "NYNJ Host Committee"
+        },
+        {
+          "id": "philadelphia",
+          "city": "Philadelphia",
+          "country": "United States",
+          "venue": "Lincoln Financial Field",
+          "interface": "Philadelphia Soccer 2026 nonprofit",
+          "leaders": [
+            "Meg Kane · Host City Executive/CEO"
+          ],
+          "ownerOperator": "Philadelphia Eagles",
+          "publicLayer": "City + Pennsylvania + OEM",
+          "mobility": "SEPTA / NRG Station",
+          "finance": "USD 8.47m FTA + separate security and contributions",
+          "sourceLabel": "Philadelphia Soccer 2026"
+        },
+        {
+          "id": "san-francisco",
+          "city": "San Francisco Bay Area",
+          "country": "United States",
+          "venue": "Levi’s Stadium, Santa Clara",
+          "interface": "Bay Area Host Committee nonprofit",
+          "leaders": [
+            "Zaileen Janmohamed · President & CEO"
+          ],
+          "ownerOperator": "Santa Clara Stadium Authority + 49ers Management",
+          "publicLayer": "Nine-county region + Santa Clara",
+          "mobility": "VTA, Caltrain, ACE y buses",
+          "finance": "≈USD 51.1m FEMA + USD 8.8m FTA reported",
+          "sourceLabel": "Bay Area Host Committee"
+        },
+        {
+          "id": "seattle",
+          "city": "Seattle",
+          "country": "United States",
+          "venue": "Lumen Field",
+          "interface": "SeattleFWC26 nonprofit",
+          "leaders": [
+            "Peter Tomozawa · CEO"
+          ],
+          "ownerOperator": "Washington State Public Stadium Authority + First & Goal",
+          "publicLayer": "Seattle + King County + Washington",
+          "mobility": "Sound Transit, King County Metro y ferries",
+          "finance": "USD 8.4m FTA + USD 45m state funds",
+          "sourceLabel": "SeattleFWC26"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "world-cup",
+      "kind": "root",
+      "label": "World Cup 2026",
+      "eyebrow": "THE FULL SYSTEM",
+      "summary": "A temporary global organization connecting competition, governments, stadiums, technology, suppliers, media, and public services.",
+      "people": "≈300,000 formally accredited people",
+      "metric": "≈300,000 accredited",
+      "facts": [
+        "104 matches and 48 national teams",
+        "16 venues in Canada, Mexico, and the United States",
+        "More than 600 official sites",
+        "Estimated global chain: 500,000–1,200,000 people"
+      ],
+      "areas": [
+        "Direction",
+        "Finance",
+        "Procurement",
+        "Legal",
+        "Environment",
+        "People",
+        "Risk",
+        "Suppliers"
+      ],
+      "countries": [
+        "Canada",
+        "Mexico",
+        "United States",
+        "Switzerland",
+        "Global chain"
+      ],
+      "chain": [
+        "FIFA",
+        "FWC26",
+        "Host country",
+        "Host City",
+        "Venue",
+        "Supplier"
+      ],
+      "peopleNamed": [
+        {
+          "name": "Gianni Infantino",
+          "role": "FIFA President"
+        },
+        {
+          "name": "Mattias Grafström",
+          "role": "FIFA Secretary General"
+        },
+        {
+          "name": "Heimo Schirgi",
+          "role": "Chief Operating Officer, FIFA World Cup 2026"
+        }
+      ],
+      "organizations": [
+        "FIFA",
+        "FIFA World Cup 2026",
+        "Canada Soccer",
+        "Mexican Football Federation",
+        "U.S. Soccer",
+        "16 Host City interfaces"
+      ],
+      "sources": [
+        "FIFA · Tournament operational figures",
+        "FIFA · The 16 venues"
+      ]
+    },
+    {
+      "id": "matches",
+      "kind": "domain",
+      "label": "Competition",
+      "eyebrow": "COMPETITION",
+      "summary": "Each match is an ephemeral enterprise: it starts days earlier and ends after financial, technical, and security close-out.",
+      "people": "13,700–25,000 roles around a major match",
+      "metric": "104",
+      "facts": [
+        "170 match officials",
+        "1,248 players",
+        "Operational anatomy from −72 hours through demobilization"
+      ],
+      "areas": [
+        "Competition",
+        "Finance",
+        "Venue",
+        "Security",
+        "Medicine",
+        "Broadcast",
+        "Protocol"
+      ],
+      "countries": [
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "chain": [
+        "Planning",
+        "Venue readiness",
+        "Ceremony",
+        "Match",
+        "Egress",
+        "Close-out"
+      ],
+      "peopleNamed": [
+        {
+          "name": "Pierluigi Collina",
+          "role": "Chair of the FIFA Referees Committee"
+        }
+      ],
+      "organizations": [
+        "FIFA Competition Management",
+        "FIFA Refereeing",
+        "FWC26",
+        "Participating Member Associations"
+      ],
+      "sources": [
+        "FIFA · Tournament operational figures"
+      ]
+    },
+    {
+      "id": "security",
+      "kind": "domain",
+      "label": "Security",
+      "eyebrow": "MULTI-LAYER PROTECTION",
+      "summary": "FIFA Safety & Security, stewards, private firms, police, intelligence, traffic, counter-drone, fire, and emergency services.",
+      "people": "20,000+ security personnel confirmed in the group stage",
+      "metric": "20.000+",
+      "facts": [
+        "265,369 security shifts",
+        "Federal, state/provincial, and local layers",
+        "Cybersecurity and connected command centres"
+      ],
+      "areas": [
+        "Police",
+        "Intelligence",
+        "Legal",
+        "Permits",
+        "Risk",
+        "Private security",
+        "EMS"
+      ],
+      "countries": [
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "chain": [
+        "Threat assessment",
+        "Permits",
+        "Background checks",
+        "Rehearsals",
+        "Operations",
+        "After-action"
+      ],
+      "organizations": [
+        "FIFA Safety & Security",
+        "Local police",
+        "Federal agencies",
+        "Fire services",
+        "Private security"
+      ],
+      "sources": [
+        "FIFA · Group-stage balance"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "broadcast",
+      "kind": "domain",
+      "label": "Broadcast",
+      "eyebrow": "GLOBAL FEED",
+      "summary": "HBS produces the host feed; dozens of Media Rights Licensees customize and distribute it worldwide.",
+      "people": "Up to 3,400 people per day at the IBC",
+      "metric": "220+ territories",
+      "facts": [
+        "More than 56 media partners inside the IBC",
+        "5,230 accredited media representatives",
+        "More than 220 territories under agreement"
+      ],
+      "areas": [
+        "Production",
+        "Rights",
+        "Finance",
+        "Legal",
+        "Technology",
+        "Telecom",
+        "Suppliers"
+      ],
+      "countries": [
+        "Switzerland",
+        "United States",
+        "More than 220 territorios"
+      ],
+      "chain": [
+        "Cameras",
+        "Compound",
+        "Host feed",
+        "IBC",
+        "Rights holder",
+        "Audience"
+      ],
+      "peopleNamed": [
+        {
+          "name": "Dan Miodownik",
+          "role": "HBS CEO"
+        },
+        {
+          "name": "Luc Antoine Charial",
+          "role": "HBS COO"
+        }
+      ],
+      "organizations": [
+        "FIFA",
+        "Host Broadcast Services",
+        "IBC Dallas",
+        "Media Rights Licensees"
+      ],
+      "sources": [
+        "FIFA · Global broadcast ecosystem",
+        "FIFA · Tournament operational figures"
+      ]
+    },
+    {
+      "id": "venues",
+      "kind": "domain",
+      "label": "Stadiums",
+      "eyebrow": "INFRASTRUCTURE",
+      "summary": "Public and private buildings, standing operators, and a FIFA control period that fully transforms how they run.",
+      "people": "5,000–12,000 people in preparation and transformation",
+      "metric": "16 venues",
+      "facts": [
+        "16 stadium pitches and 77 training pitches",
+        "300,000 m² of turf across venues and training sites",
+        "Temporary overlay for all 16 stadiums"
+      ],
+      "areas": [
+        "Owner",
+        "Operator",
+        "Works",
+        "Procurement",
+        "Permits",
+        "Environment",
+        "Insurance",
+        "Suppliers"
+      ],
+      "countries": [
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "chain": [
+        "Owner",
+        "Operator",
+        "Venue agreement",
+        "Overlay",
+        "Tournament mode",
+        "Reinstatement"
+      ],
+      "organizations": [
+        "FIFA Venue Management",
+        "BaAM Productions",
+        "16 owners",
+        "16 operators",
+        "Local authorities"
+      ],
+      "sources": [
+        "FIFA · The 16 venues"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "teams",
+      "kind": "domain",
+      "label": "Teams",
+      "eyebrow": "DELEGATIONS",
+      "summary": "Players and technical staff travel inside a logistics bubble of hotels, base camps, kit vans, security, and transport.",
+      "people": "3,776 direct people; 8,600–16,800 with expanded support",
+      "metric": "48 national teams",
+      "facts": [
+        "1,248 players and 2,528 delegates",
+        "48 Team Base Camps",
+        "6,310 transfers accumulated at the research cut-off"
+      ],
+      "areas": [
+        "Federations",
+        "Logistics",
+        "Finance",
+        "Customs",
+        "Security",
+        "Hotels",
+        "Insurance"
+      ],
+      "countries": [
+        "48 national teams",
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "chain": [
+        "Federation",
+        "Delegation",
+        "Base camp",
+        "Hotel",
+        "Kit",
+        "Match travel"
+      ],
+      "organizations": [
+        "48 federaciones",
+        "FIFA Team Services",
+        "Rock-it Cargo",
+        "Hotels and training sites"
+      ],
+      "sources": [
+        "FIFA · Team Base Camps",
+        "FIFA · Tournament operational figures"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "ceremonies",
+      "kind": "domain",
+      "label": "Ceremonies",
+      "eyebrow": "SPECTACLE",
+      "summary": "Flags, music, artists, pyrotechnics, protocol, and technology turn minutes of ceremony into months of production.",
+      "people": "Around 140 people visible for two giant flags alone",
+      "metric": "10,000+ volunteers",
+      "facts": [
+        "≈70 volunteers per giant national flag",
+        "More than 200 banner logistics movements",
+        "Balich Wonder Studio on main ceremonies"
+      ],
+      "areas": [
+        "Creative",
+        "Procurement",
+        "Legal",
+        "Permits",
+        "Environment",
+        "Security",
+        "Suppliers"
+      ],
+      "countries": [
+        "Italy",
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "chain": [
+        "Concept",
+        "Creative",
+        "Permits",
+        "Manufacturing",
+        "Rehearsal",
+        "Show call"
+      ],
+      "peopleNamed": [
+        {
+          "name": "Marco Balich",
+          "role": "Chairman of Balich Wonder Studio"
+        }
+      ],
+      "organizations": [
+        "FIFA Ceremonies",
+        "Balich Wonder Studio",
+        "Host Cities",
+        "Local suppliers"
+      ],
+      "sources": [
+        "FIFA · Pre-match ceremonies and flags"
+      ]
+    },
+    {
+      "id": "technology",
+      "kind": "domain",
+      "label": "Refereeing technology",
+      "shortLabel": "Ref tech",
+      "eyebrow": "INVISIBLE ENGINEERING",
+      "summary": "Cameras, fiber, connected ball, AI, cybersecurity, and refereeing systems form a critical distributed platform.",
+      "people": "1,500–4,000 people in central engineering and support",
+      "metric": "13 PB of data",
+      "facts": [
+        "161,000 km of fiber",
+        "30 dedicated technical cameras per stadium for SAOT + GLT",
+        "More than 1 billion blocked attacks"
+      ],
+      "areas": [
+        "Product",
+        "Engineering",
+        "Procurement",
+        "Legal",
+        "Cybersecurity",
+        "Telecom",
+        "Suppliers"
+      ],
+      "countries": [
+        "Switzerland",
+        "United Kingdom",
+        "Germany",
+        "China",
+        "United States"
+      ],
+      "chain": [
+        "Research",
+        "Product",
+        "Integration",
+        "Calibration",
+        "24/7 operations",
+        "Contingency"
+      ],
+      "peopleNamed": [
+        {
+          "name": "Johannes Holzmüller",
+          "role": "Director of Football Technology & Innovation"
+        }
+      ],
+      "organizations": [
+        "FIFA Innovation",
+        "Lenovo",
+        "Hawk-Eye Innovations",
+        "Football Technology Centre AG",
+        "adidas"
+      ],
+      "sources": [
+        "FIFA · 2026 refereeing technology",
+        "FIFA · Tournament operational figures"
+      ]
+    },
+    {
+      "id": "hospitality",
+      "kind": "domain",
+      "label": "Hospitality",
+      "eyebrow": "FAN EXPERIENCE",
+      "summary": "Tickets, suites, hotels, food, accessibility, retail, and guest care form another enterprise inside the tournament.",
+      "people": "27,969 accredited hospitality people",
+      "metric": "27.969 accredited",
+      "facts": [
+        "607,350 hospitality packages",
+        "3,166 premium environments activated",
+        "More than 700 premium menus"
+      ],
+      "areas": [
+        "Commercial",
+        "Finance",
+        "Procurement",
+        "Food safety",
+        "People",
+        "Accessibility",
+        "Suppliers"
+      ],
+      "countries": [
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "chain": [
+        "Product",
+        "Sales",
+        "Guest data",
+        "Venue",
+        "Service",
+        "Reconciliation"
+      ],
+      "organizations": [
+        "FIFA",
+        "On Location",
+        "Suite and lounge operators",
+        "Catering and protocol"
+      ],
+      "sources": [
+        "FIFA · Tournament operational figures"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "governance",
+      "kind": "domain",
+      "label": "Governance",
+      "eyebrow": "DIRECTION AND COORDINATION",
+      "summary": "FIFA, FWC26, host associations, Host Cities, and governments coordinate a temporary organization with multiple decision centers.",
+      "people": "Estimate: 2,000–6,000 direction, PMO, command-centre, and public-coordination roles",
+      "metric": "3 countries · 16 venues",
+      "facts": [
+        "Tournament Operations Centre in Miami",
+        "16 local interfaces with different legal forms",
+        "Federal, state/provincial, and municipal governance"
+      ],
+      "areas": [
+        "Direction",
+        "PMO",
+        "Government",
+        "Crisis",
+        "Communications",
+        "Legal",
+        "Finance"
+      ],
+      "countries": [
+        "Switzerland",
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "chain": [
+        "FIFA Council",
+        "FWC26",
+        "Host Association",
+        "Host City",
+        "Government",
+        "Venue",
+        "Supplier"
+      ],
+      "peopleNamed": [
+        {
+          "name": "Gianni Infantino",
+          "role": "FIFA President"
+        },
+        {
+          "name": "Mattias Grafström",
+          "role": "Secretary General"
+        },
+        {
+          "name": "Heimo Schirgi",
+          "role": "COO FIFA World Cup 2026"
+        }
+      ],
+      "organizations": [
+        "FIFA",
+        "FWC26",
+        "Canada Soccer",
+        "FMF",
+        "U.S. Soccer",
+        "16 Host Committees/Secretariats"
+      ],
+      "sources": [
+        "FIFA · Tournament Operations Centre and Intelligent Command Centre",
+        "FIFA · Tournament operational figures"
+      ]
+    },
+    {
+      "id": "enterprise-tech",
+      "kind": "domain",
+      "label": "Enterprise technology",
+      "shortLabel": "Enterprise tech",
+      "eyebrow": "PLATFORMS AND CYBERSECURITY",
+      "summary": "Private networks, cloud, identity, accreditation, devices, workforce systems, and monitoring centers keep the tournament connected.",
+      "people": "Estimate: 1,500–4,000 people; overlap with broadcast and FIFA workforce",
+      "metric": "600+ sites",
+      "facts": [
+        "161,000 km of fiber",
+        "More than 1 billion blocked attacks",
+        "Systems across more than 600 official sites"
+      ],
+      "areas": [
+        "Architecture",
+        "Cloud",
+        "Networks",
+        "Identity",
+        "Support",
+        "Cybersecurity",
+        "Data"
+      ],
+      "countries": [
+        "United States",
+        "China",
+        "Switzerland",
+        "Global chain"
+      ],
+      "chain": [
+        "Architecture",
+        "Procurement",
+        "Integration",
+        "Hardening",
+        "Monitoring",
+        "Response",
+        "Recovery"
+      ],
+      "organizations": [
+        "FIFA Technology",
+        "Lenovo",
+        "Salesforce",
+        "Verizon",
+        "Local integrators"
+      ],
+      "sources": [
+        "FIFA · Tournament operational figures",
+        "FIFA · 2026 refereeing technology",
+        "FIFA · Compliance program"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "medical",
+      "kind": "domain",
+      "label": "Health and medicine",
+      "eyebrow": "SPORT, PUBLIC AND HEALTH",
+      "summary": "Team and referee medicine, first aid, ambulances, hospitals, anti-doping, public health, and climate protocols.",
+      "people": "Estimate: 8,000–20,000 medical professionals and roles in the expanded tournament",
+      "metric": "16 medical networks",
+      "facts": [
+        "Referral hospitals per venue",
+        "Separate layers for participants and the public",
+        "Heat, food, and disease surveillance"
+      ],
+      "areas": [
+        "FIFA Medical",
+        "EMS",
+        "Hospitals",
+        "Public health",
+        "Anti-doping",
+        "Food safety",
+        "Mental health"
+      ],
+      "countries": [
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "chain": [
+        "Medical plan",
+        "Credentialing",
+        "Posts",
+        "Triage",
+        "Transfer",
+        "Hospital",
+        "Reporting"
+      ],
+      "organizations": [
+        "FIFA Medical",
+        "Team medical staff",
+        "Local EMS",
+        "Referral hospitals",
+        "Health authorities"
+      ],
+      "sources": [
+        "FIFA · 2026 medical teams and standards",
+        "FIFA · Tournament operational figures"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "transport",
+      "kind": "domain",
+      "label": "Transport and logistics",
+      "eyebrow": "MOBILITY AND FREIGHT",
+      "summary": "Borders, aviation, customs, buses, public transit, shuttles, depots, freight, and contingency routes.",
+      "people": "Estimate: 25,000–80,000 roles across mobility, airports, freight, and traffic",
+      "metric": "3 countries · last mile",
+      "facts": [
+        "6,310 team movements at cut-off",
+        "2,321 escorted transfers",
+        "Public and private networks coordinated per venue"
+      ],
+      "areas": [
+        "Aviation",
+        "Immigration",
+        "Customs",
+        "Freight",
+        "Transit",
+        "Traffic",
+        "Fleet"
+      ],
+      "countries": [
+        "Canada",
+        "Mexico",
+        "United States",
+        "Global logistics chain"
+      ],
+      "chain": [
+        "Forecast",
+        "Permit",
+        "Booking",
+        "Customs",
+        "Depot",
+        "Route",
+        "Last mile",
+        "Return"
+      ],
+      "organizations": [
+        "Rock-it Cargo/GCL",
+        "Hyundai–Kia",
+        "Transport agencies",
+        "Airports",
+        "Traffic police"
+      ],
+      "sources": [
+        "FIFA · Rock-it Cargo, official logistics provider",
+        "FIFA · Team Base Camps",
+        "FIFA · Tournament operational figures"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "accommodation",
+      "kind": "domain",
+      "label": "Accommodation and food",
+      "shortLabel": "Accommodation",
+      "eyebrow": "HOUSING AND FEEDING THE TOURNAMENT",
+      "summary": "Hotels, rooming, kitchens, sports nutrition, cleaning, laundry, food traceability, and waste.",
+      "people": "Estimate: 40,000–120,000 people in lodging, food, and related services",
+      "metric": "hotels · catering",
+      "facts": [
+        "48 Team Base Camps",
+        "Differentiated hotels for teams, referees, FIFA, and media",
+        "Food operations with health controls"
+      ],
+      "areas": [
+        "Hotels",
+        "Catering",
+        "Nutrition",
+        "Housekeeping",
+        "Laundry",
+        "Food safety",
+        "Waste"
+      ],
+      "countries": [
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "chain": [
+        "Forecast",
+        "Contract",
+        "Rooming",
+        "Supply",
+        "Service",
+        "Health control",
+        "Reconciliation"
+      ],
+      "organizations": [
+        "Base hotels",
+        "Marriott Bonvoy",
+        "Airbnb",
+        "Caterers",
+        "Health authorities"
+      ],
+      "sources": [
+        "FIFA · Team Base Camps",
+        "FIFA · Tournament operational figures"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "fans",
+      "kind": "domain",
+      "label": "Fans and accessibility",
+      "shortLabel": "Fans",
+      "eyebrow": "TICKETS AND EXPERIENCE",
+      "summary": "Ticketing, payments, fraud, entry, Fan Festivals, multilingual information, mobility, and accessibility services.",
+      "people": "Estimate: 15,000–40,000 direct roles in ticketing, fan services, and accessibility",
+      "metric": "6.2M+ tickets",
+      "facts": [
+        "7.7 million Fan Festival visits",
+        "Audio description and haptic boards",
+        "Sensory bags and inclusive training"
+      ],
+      "areas": [
+        "Ticketing",
+        "Payments",
+        "Guest services",
+        "Fan Festival",
+        "Accessibility",
+        "Fraud",
+        "Information"
+      ],
+      "countries": [
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "chain": [
+        "Registration",
+        "Purchase",
+        "Payment",
+        "Ticket",
+        "Travel",
+        "Entry",
+        "Experience",
+        "Support"
+      ],
+      "organizations": [
+        "FIFA Ticketing",
+        "Host Cities",
+        "KultureCity",
+        "Payment partners",
+        "Venue guest services"
+      ],
+      "sources": [
+        "FIFA · Accessibility and inclusion",
+        "FIFA · Tournament operational figures"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "brand",
+      "kind": "domain",
+      "label": "Brand and content",
+      "eyebrow": "DESIGN, MUSIC AND OWNED MEDIA",
+      "summary": "Brand architecture, emblem, posters, music, campaigns, content, creators, city dressing, and clean zones.",
+      "people": "Estimate: 5,000–20,000 people in the global creative-production chain",
+      "metric": "16 local identities",
+      "facts": [
+        "Shared system with 16 Host City expressions",
+        "Sonic IDs and local production",
+        "Brand protection and venue de-branding"
+      ],
+      "areas": [
+        "Brand strategy",
+        "Design",
+        "Music",
+        "Content",
+        "Social",
+        "Rights",
+        "City dressing"
+      ],
+      "countries": [
+        "United States",
+        "Canada",
+        "Mexico",
+        "Global creative chain"
+      ],
+      "chain": [
+        "Strategy",
+        "Concept",
+        "Rights",
+        "Production",
+        "Adaptation",
+        "Approval",
+        "Publication"
+      ],
+      "organizations": [
+        "FIFA Brand",
+        "Moment Factory",
+        "This Is Catapult",
+        "Local agencies",
+        "Host Cities"
+      ],
+      "sources": [
+        "FIFA · Official 2026 brand identity",
+        "FIFA · Tournament operational figures"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "commercial",
+      "kind": "domain",
+      "label": "Sponsors and retail",
+      "shortLabel": "Sponsors & retail",
+      "eyebrow": "COMMERCIAL RIGHTS",
+      "summary": "Sponsorships, licensing, activations, equipment, ball, products, manufacturing, stores, payments, and royalties.",
+      "people": "Estimate: 20,000–100,000 people in activations, manufacturing, distribution, and retail",
+      "metric": "20+ global partners",
+      "facts": [
+        "FIFA Partner/Sponsor/Supporter hierarchies",
+        "Fanatics operates onsite retail",
+        "Multinational manufacturing and distribution"
+      ],
+      "areas": [
+        "Sales",
+        "Partnerships",
+        "Licensing",
+        "Retail",
+        "Manufacturing",
+        "Payments",
+        "Brand protection"
+      ],
+      "countries": [
+        "United States",
+        "Germany",
+        "China",
+        "Saudi Arabia",
+        "Qatar",
+        "Global chain"
+      ],
+      "chain": [
+        "Category",
+        "Contract",
+        "Rights",
+        "Concept",
+        "Production",
+        "Activation",
+        "Sales",
+        "Royalty"
+      ],
+      "organizations": [
+        "FIFA Commercial",
+        "Fanatics",
+        "adidas",
+        "Visa",
+        "Coca-Cola",
+        "Sponsors and licensees"
+      ],
+      "sources": [
+        "FIFA · Fanatics, retail and merchandising",
+        "FIFA · Tournament operational figures"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "sustainability",
+      "kind": "domain",
+      "label": "Sustainability & human rights",
+      "shortLabel": "Sustainability",
+      "eyebrow": "ENVIRONMENT, RIGHTS AND LEGACY",
+      "summary": "Climate, energy, water, waste, responsible sourcing, labor, inclusion, grievance mechanisms, community, and legacy.",
+      "people": "Estimate: 2,000–8,000 specialized roles and functional liaisons",
+      "metric": "4 pillars",
+      "facts": [
+        "Social, environmental, economic, and governance strategy",
+        "Specific plans per Host City and venue",
+        "Sustainable Sourcing Code for the supply chain"
+      ],
+      "areas": [
+        "Climate",
+        "Energy",
+        "Water",
+        "Waste",
+        "Labor",
+        "Human rights",
+        "Community"
+      ],
+      "countries": [
+        "Canada",
+        "Mexico",
+        "United States",
+        "Global chain"
+      ],
+      "chain": [
+        "Baseline",
+        "Target",
+        "Due diligence",
+        "Plan",
+        "Operations",
+        "Grievance",
+        "Reporting",
+        "Legacy"
+      ],
+      "organizations": [
+        "FIFA Sustainability & Human Rights",
+        "Host Cities",
+        "Venues",
+        "Suppliers",
+        "Communities"
+      ],
+      "sources": [
+        "FIFA · 2026 sustainability and human-rights strategy",
+        "FIFA · Sustainable sourcing code"
+      ],
+      "peopleNamed": []
+    },
+    {
+      "id": "finance-admin",
+      "kind": "domain",
+      "label": "Finance and legal",
+      "shortLabel": "Finance & legal",
+      "eyebrow": "MONEY, CONTRACTS AND CONTROL",
+      "summary": "CFO, budget, procurement, contracts, tax, insurance, privacy, permits, payments, reconciliation, and audit.",
+      "people": "Estimate: 3,000–12,000 cross-cutting roles; many overlap other branches",
+      "metric": "budget → audit",
+      "facts": [
+        "Separate circuits in FIFA, FWC26, Host Cities, and governments",
+        "Public and private procurement coexist",
+        "Financial close-out continues after the final match"
+      ],
+      "areas": [
+        "CFO",
+        "FP&A",
+        "Procurement",
+        "Legal",
+        "Tax",
+        "Insurance",
+        "Audit",
+        "Compliance"
+      ],
+      "countries": [
+        "Switzerland",
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "chain": [
+        "Need",
+        "Business case",
+        "Budget",
+        "RFP",
+        "Contract",
+        "Delivery",
+        "Invoice",
+        "Payment",
+        "Audit"
+      ],
+      "peopleNamed": [
+        {
+          "name": "Thomas Peyer",
+          "role": "Chief Finance Officer de FIFA"
+        }
+      ],
+      "organizations": [
+        "FIFA Finance",
+        "FWC26 Finance",
+        "Host City CFOs",
+        "Governments",
+        "Auditors",
+        "Insurers"
+      ],
+      "sources": [
+        "FIFA · Chief Finance Officer",
+        "FIFA · Compliance program",
+        "FIFA · Legal area",
+        "FIFA · Sustainable sourcing code"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "match-ceremony",
+      "label": "Pre-match ceremony",
+      "summary": "Show, flags, anthems, and protocol",
+      "people": "Estimate not separated: included in the range of Competition",
+      "metric": "360°",
+      "facts": [
+        "360°",
+        "Part of Competition",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "match-officials",
+      "label": "Officials",
+      "summary": "Referees, assistants, and video officials",
+      "people": "Estimate not separated: included in the range of Competition",
+      "metric": "170",
+      "facts": [
+        "170",
+        "Part of Competition",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "match-control",
+      "label": "Match control",
+      "summary": "Competition management and venue control",
+      "people": "Estimate not separated: included in the range of Competition",
+      "metric": "90+ min",
+      "facts": [
+        "90+ min",
+        "Part of Competition",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "match-medical",
+      "label": "Medicine",
+      "summary": "Teams, public, EMS, and hospitals",
+      "people": "Estimate not separated: included in the range of Competition",
+      "metric": "80–250",
+      "facts": [
+        "80–250",
+        "Part of Competition",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "match-egress",
+      "label": "Egress",
+      "summary": "Crowd flow, traffic, and transport",
+      "people": "Estimate not separated: included in the range of Competition",
+      "metric": "65.204 avg",
+      "facts": [
+        "65.204 avg",
+        "Part of Competition",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "match-close",
+      "label": "Financial close-out",
+      "summary": "Invoices, reports, claims, and audit",
+      "people": "Estimate not separated: included in the range of Competition",
+      "metric": "post-match",
+      "facts": [
+        "post-match",
+        "Part of Competition",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "match-opening-case",
+      "label": "Opening match case",
+      "summary": "Ceremony, public ops, security, mobility, and stadium for the opening match",
+      "people": "Estimate: 18,000–30,000 direct and public roles",
+      "metric": "Mexico–South Africa",
+      "facts": [
+        "Mexico–South Africa",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sec-local",
+      "label": "Local police",
+      "summary": "Urban perimeters, traffic, and response",
+      "people": "Estimate not separated: included in the range of Security",
+      "metric": "multi-venue",
+      "facts": [
+        "multi-venue",
+        "Part of Security",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sec-private",
+      "label": "Private security",
+      "summary": "Screening, access, and controlled zones",
+      "people": "Estimate not separated: included in the range of Security",
+      "metric": "venue",
+      "facts": [
+        "venue",
+        "Part of Security",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sec-cyber",
+      "label": "Cybersecurity",
+      "summary": "SOC, threats, domains, and platforms",
+      "people": "Estimate not separated: included in the range of Security",
+      "metric": "1B+",
+      "facts": [
+        "1B+",
+        "Part of Security",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sec-credentials",
+      "label": "Accreditation",
+      "summary": "Identity, background checks, and zones",
+      "people": "Estimate not separated: included in the range of Security",
+      "metric": "300.000",
+      "facts": [
+        "300.000",
+        "Part of Security",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sec-intel",
+      "label": "Intelligence",
+      "summary": "Threat assessment and federal coordination",
+      "people": "Estimate not separated: included in the range of Security",
+      "metric": "3 countries",
+      "facts": [
+        "3 countries",
+        "Part of Security",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sec-drones",
+      "label": "Counter-drone",
+      "summary": "Airspace, detection, and response",
+      "people": "Estimate not separated: included in the range of Security",
+      "metric": "16 venues",
+      "facts": [
+        "16 venues",
+        "Part of Security",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "broad-cameras",
+      "label": "TV cameras",
+      "summary": "Host-feed production",
+      "people": "Estimate not separated: included in the range of Broadcast",
+      "metric": "multilateral",
+      "facts": [
+        "multilateral",
+        "Part of Broadcast",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "broad-hbs",
+      "label": "HBS",
+      "summary": "Host broadcaster and global integration",
+      "people": "Estimate not separated: included in the range of Broadcast",
+      "metric": "host",
+      "facts": [
+        "host",
+        "Part of Broadcast",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "broad-ibc",
+      "label": "IBC Dallas",
+      "summary": "Nerve center for TV, radio, and new media",
+      "people": "Estimate not separated: included in the range of Broadcast",
+      "metric": "43.648 m²",
+      "facts": [
+        "43.648 m²",
+        "Part of Broadcast",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "broad-rights",
+      "label": "TV rights",
+      "summary": "Licenses by territory and platform",
+      "people": "Estimate not separated: included in the range of Broadcast",
+      "metric": "220+",
+      "facts": [
+        "220+",
+        "Part of Broadcast",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "broad-studios",
+      "label": "Mobile studios",
+      "summary": "Unilaterals, commentary, and mixed zones",
+      "people": "Estimate not separated: included in the range of Broadcast",
+      "metric": "16 venues",
+      "facts": [
+        "16 venues",
+        "Part of Broadcast",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "broad-distribution",
+      "label": "Distribution",
+      "summary": "Fiber, satellite, CDN, and streaming",
+      "people": "Estimate not separated: included in the range of Broadcast",
+      "metric": "global",
+      "facts": [
+        "global",
+        "Part of Broadcast",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "venue-pitch",
+      "label": "Pitch",
+      "summary": "Turf, grow-in, install, and maintenance",
+      "people": "Estimate not separated: included in the range of Stadiums",
+      "metric": "130.000 m²",
+      "facts": [
+        "130.000 m²",
+        "Part of Stadiums",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "venue-overlay",
+      "label": "Temporary overlay",
+      "summary": "Tents, compound, fencing, and structures",
+      "people": "Estimate not separated: included in the range of Stadiums",
+      "metric": "16 venues",
+      "facts": [
+        "16 venues",
+        "Part of Stadiums",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "venue-owner",
+      "label": "Owners",
+      "summary": "Public, private, and leased assets",
+      "people": "Estimate not separated: included in the range of Stadiums",
+      "metric": "16 modelos",
+      "facts": [
+        "16 modelos",
+        "Part of Stadiums",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "venue-operator",
+      "label": "Operators",
+      "summary": "Standing staff + FIFA integration",
+      "people": "Estimate not separated: included in the range of Stadiums",
+      "metric": "tournament mode",
+      "facts": [
+        "tournament mode",
+        "Part of Stadiums",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "venue-access",
+      "label": "Accessibility",
+      "summary": "ADC, sign language, sensory, and mobility",
+      "people": "Estimate not separated: included in the range of Stadiums",
+      "metric": "todos",
+      "facts": [
+        "todos",
+        "Part of Stadiums",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "venue-sustain",
+      "label": "Sustainability",
+      "summary": "Waste, water, energy, and rights",
+      "people": "Estimate not separated: included in the range of Stadiums",
+      "metric": "strategy",
+      "facts": [
+        "strategy",
+        "Part of Stadiums",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "team-players",
+      "label": "Players",
+      "summary": "26 footballers per national team",
+      "people": "Estimate not separated: included in the range of Teams",
+      "metric": "1.248",
+      "facts": [
+        "1.248",
+        "Part of Teams",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "team-delegates",
+      "label": "Delegations",
+      "summary": "Coaches, doctors, analysts, and admin",
+      "people": "Estimate not separated: included in the range of Teams",
+      "metric": "2.528",
+      "facts": [
+        "2.528",
+        "Part of Teams",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "team-kit",
+      "label": "Kit vans",
+      "summary": "Equipment, colors, and match preparation",
+      "people": "Estimate not separated: included in the range of Teams",
+      "metric": "2.201",
+      "facts": [
+        "2.201",
+        "Part of Teams",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "team-buses",
+      "label": "Escorted buses",
+      "summary": "Protected transfers at cut-off",
+      "people": "Estimate not separated: included in the range of Teams",
+      "metric": "2.321",
+      "facts": [
+        "2.321",
+        "Part of Teams",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "team-camps",
+      "label": "Base Camps",
+      "summary": "Hotel + training site + operations",
+      "people": "Estimate not separated: included in the range of Teams",
+      "metric": "48",
+      "facts": [
+        "48",
+        "Part of Teams",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "team-logistics",
+      "label": "Logistics",
+      "summary": "Freight, customs, and team equipment",
+      "people": "Estimate not separated: included in the range of Teams",
+      "metric": "Rock-it",
+      "facts": [
+        "Rock-it",
+        "Part of Teams",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "cer-flags",
+      "label": "Giant flags",
+      "summary": "Manufacturing, logistics, and volunteers",
+      "people": "Estimate not separated: included in the range of Ceremonies",
+      "metric": "≈70 c/u",
+      "facts": [
+        "≈70 c/u",
+        "Part of Ceremonies",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "cer-pyro",
+      "label": "Fireworks and pyrotechnics",
+      "summary": "Design, permits, environment, and firing",
+      "people": "Estimate not separated: included in the range of Ceremonies",
+      "metric": "country colors",
+      "facts": [
+        "country colors",
+        "Part of Ceremonies",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "cer-opening",
+      "label": "Opening",
+      "summary": "Balich, artists, and stage production",
+      "people": "Estimate not separated: included in the range of Ceremonies",
+      "metric": "90 min antes",
+      "facts": [
+        "90 min antes",
+        "Part of Ceremonies",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "cer-music",
+      "label": "Sonic IDs",
+      "summary": "Local producers and rights clearance",
+      "people": "Estimate not separated: included in the range of Ceremonies",
+      "metric": "16",
+      "facts": [
+        "16",
+        "Part of Ceremonies",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "cer-protocol",
+      "label": "Protocol",
+      "summary": "Anthems, dignitaries, and sequence",
+      "people": "Estimate not separated: included in the range of Ceremonies",
+      "metric": "cada match",
+      "facts": [
+        "cada match",
+        "Part of Ceremonies",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "cer-rehearsal",
+      "label": "Rehearsals",
+      "summary": "Blocking, cues, safety, and contingencies",
+      "people": "Estimate not separated: included in the range of Ceremonies",
+      "metric": "multi-day",
+      "facts": [
+        "multi-day",
+        "Part of Ceremonies",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tech-var",
+      "label": "VAR",
+      "summary": "Replay, communication, and decision support",
+      "people": "Estimate not separated: included in the range of Refereeing technology",
+      "metric": "6 rooms IBC",
+      "facts": [
+        "6 rooms IBC",
+        "Part of Refereeing technology",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tech-saot",
+      "label": "Semi-automated offside",
+      "summary": "Body tracking and connected ball",
+      "people": "Estimate not separated: included in the range of Refereeing technology",
+      "metric": "16 cameras",
+      "facts": [
+        "16 cameras",
+        "Part of Refereeing technology",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tech-glt",
+      "label": "Goal-line",
+      "summary": "Automatic goal detection",
+      "people": "Estimate not separated: included in the range of Refereeing technology",
+      "metric": "14 cameras",
+      "facts": [
+        "14 cameras",
+        "Part of Refereeing technology",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tech-ball",
+      "label": "Connected ball",
+      "summary": "IMU and kick-point detection",
+      "people": "Estimate not separated: included in the range of Refereeing technology",
+      "metric": "500 Hz",
+      "facts": [
+        "500 Hz",
+        "Part of Refereeing technology",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tech-network",
+      "label": "Network and fiber",
+      "summary": "Private 5G, endpoints, and radios",
+      "people": "Estimate not separated: included in the range of Refereeing technology",
+      "metric": "161.000 km",
+      "facts": [
+        "161.000 km",
+        "Part of Refereeing technology",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tech-ai",
+      "label": "AI & avatars",
+      "summary": "Football AI Pro and 3D visualization",
+      "people": "Estimate not separated: included in the range of Refereeing technology",
+      "metric": "1.248 scans",
+      "facts": [
+        "1.248 scans",
+        "Part of Refereeing technology",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "hosp-tickets",
+      "label": "Tickets",
+      "summary": "Sales, payment, seat map, and resale",
+      "people": "Estimate not separated: included in the range of Hospitality",
+      "metric": "6,2M+",
+      "facts": [
+        "6,2M+",
+        "Part of Hospitality",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "hosp-premium",
+      "label": "Premium",
+      "summary": "Suites, lounges, and guests",
+      "people": "Estimate not separated: included in the range of Hospitality",
+      "metric": "607.350",
+      "facts": [
+        "607.350",
+        "Part of Hospitality",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "hosp-food",
+      "label": "Food",
+      "summary": "Kitchen, stock, F&B, and food safety",
+      "people": "Estimate not separated: included in the range of Hospitality",
+      "metric": "700+ menus",
+      "facts": [
+        "700+ menus",
+        "Part of Hospitality",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "hosp-retail",
+      "label": "Retail",
+      "summary": "Licensing, stock, POS, and royalties",
+      "people": "Estimate not separated: included in the range of Hospitality",
+      "metric": "Fanatics",
+      "facts": [
+        "Fanatics",
+        "Part of Hospitality",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "hosp-hotels",
+      "label": "Lodging",
+      "summary": "Hotels, Airbnb, and team hotels",
+      "people": "Estimate not separated: included in the range of Hospitality",
+      "metric": "global",
+      "facts": [
+        "global",
+        "Part of Hospitality",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "hosp-fanfest",
+      "label": "Fan Festivals",
+      "summary": "Screens, culture, security, and vendors",
+      "people": "Estimate not separated: included in the range of Hospitality",
+      "metric": "7,7M+",
+      "facts": [
+        "7,7M+",
+        "Part of Hospitality",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "gov-fifa",
+      "label": "Central FIFA",
+      "summary": "Rules, competition, brand, rights, and standards",
+      "people": "Estimate: 800–2.000 roles centrales y desplegadas",
+      "metric": "global",
+      "facts": [
+        "global",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "gov-fwc26",
+      "label": "FWC26 delivery",
+      "summary": "Operational and functional venue integration",
+      "people": "Estimate: 1.000–3.000 roles",
+      "metric": "trilateral",
+      "facts": [
+        "trilateral",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "gov-toc",
+      "label": "TOC Miami",
+      "summary": "Tournament cockpit, command, and escalation",
+      "people": "Estimate: 150–400 roles por shifts",
+      "metric": "24/7",
+      "facts": [
+        "24/7",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "gov-associations",
+      "label": "Host associations",
+      "summary": "Canada Soccer, FMF, and U.S. Soccer",
+      "people": "Estimate: 200–600 enlaces y puestos",
+      "metric": "3",
+      "facts": [
+        "3",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "gov-host-cities",
+      "label": "Host Cities",
+      "summary": "Committees, agencies, and local alliances",
+      "people": "Estimate: 1.500–5.000 roles directas",
+      "metric": "16",
+      "facts": [
+        "16",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "gov-crisis",
+      "label": "Crisis and continuity",
+      "summary": "Incident management, communications, and recovery",
+      "people": "Estimate: 300–1.000 roles",
+      "metric": "multiagencia",
+      "facts": [
+        "multiagencia",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "ent-network",
+      "label": "Private networks",
+      "summary": "Fiber, radio, private 5G, endpoints, and observability",
+      "people": "Estimate: 500–1.200 roles",
+      "metric": "161.000 km",
+      "facts": [
+        "161.000 km",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "ent-cloud",
+      "label": "Cloud and datacenters",
+      "summary": "Compute, storage, edge, backups, and resilience",
+      "people": "Estimate: 250–700 roles",
+      "metric": "multi-region",
+      "facts": [
+        "multi-region",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "ent-identity",
+      "label": "Identity and access",
+      "summary": "Accreditation, zones, devices, and background checks",
+      "people": "Estimate: 300–900 roles",
+      "metric": "300.000",
+      "facts": [
+        "300.000",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "ent-workforce",
+      "label": "Workforce systems",
+      "summary": "Scheduling, training, collaboration, and support",
+      "people": "Estimate: 250–800 roles",
+      "metric": "85.000+",
+      "facts": [
+        "85.000+",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "ent-soc",
+      "label": "SOC and cybersecurity",
+      "summary": "Threat intel, detection, response, and forensics",
+      "people": "Estimate: 300–900 roles",
+      "metric": "1B+",
+      "facts": [
+        "1B+",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "ent-support",
+      "label": "Service desk",
+      "summary": "Devices, onsite support, spare pool, and escalation",
+      "people": "Estimate: 600–1.500 roles",
+      "metric": "600+ sitios",
+      "facts": [
+        "600+ sitios",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "med-teams",
+      "label": "Team medicine",
+      "summary": "Doctors, physios, nutrition, and recovery",
+      "people": "Estimate: 700–1.300 profesionales",
+      "metric": "48",
+      "facts": [
+        "48",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "med-venue",
+      "label": "Stadium posts",
+      "summary": "First aid, AED, triage, and spectator care",
+      "people": "Estimate: 2.000–5.000 roles",
+      "metric": "16",
+      "facts": [
+        "16",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "med-ems",
+      "label": "Ambulances and EMS",
+      "summary": "Prehospital response and transfers",
+      "people": "Estimate: 1.500–4.000 roles",
+      "metric": "multisede",
+      "facts": [
+        "multisede",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "med-hospitals",
+      "label": "Referral hospitals",
+      "summary": "Trauma, emergencies, coordination, and capacity planning",
+      "people": "Estimate: 2.000–6.000 puestos activados o de guardia",
+      "metric": "red local",
+      "facts": [
+        "red local",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "med-antidoping",
+      "label": "Anti-doping",
+      "summary": "Selection, chain of custody, and labs",
+      "people": "Estimate: 200–500 roles",
+      "metric": "104 matches",
+      "facts": [
+        "104 matches",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "med-public-health",
+      "label": "Public health",
+      "summary": "Heat, epidemiology, food, and health communications",
+      "people": "Estimate: 500–1.500 roles",
+      "metric": "3 countries",
+      "facts": [
+        "3 countries",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tr-air",
+      "label": "Aviation and airports",
+      "summary": "Slots, terminals, security, baggage, and contingencies",
+      "people": "Estimate: 8.000–25.000 puestos vinculados",
+      "metric": "multihub",
+      "facts": [
+        "multihub",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tr-border",
+      "label": "Borders and customs",
+      "summary": "Visas, immigration, customs, and sensitive materials",
+      "people": "Estimate: 1.500–5.000 roles",
+      "metric": "3 countries",
+      "facts": [
+        "3 countries",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tr-teams",
+      "label": "Team mobility",
+      "summary": "Buses, escorts, kit vans, and protected routes",
+      "people": "Estimate: 2.000–5.000 roles",
+      "metric": "6.310",
+      "facts": [
+        "6.310",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tr-public",
+      "label": "Public transport",
+      "summary": "Rail, metro, buses, ferries, and service plans",
+      "people": "Estimate: 10.000–30.000 puestos activados",
+      "metric": "16 venues",
+      "facts": [
+        "16 venues",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tr-freight",
+      "label": "Freight and depots",
+      "summary": "Cargo, warehouses, customs, and venue delivery",
+      "people": "Estimate: 3.000–10.000 roles",
+      "metric": "global",
+      "facts": [
+        "global",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "tr-last-mile",
+      "label": "Last mile",
+      "summary": "Shuttles, parking, traffic, rideshare, and wayfinding",
+      "people": "Estimate: 5.000–15.000 roles",
+      "metric": "match-day",
+      "facts": [
+        "match-day",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "acc-team-hotels",
+      "label": "Team hotels",
+      "summary": "Rooming, security, privacy, and nutrition",
+      "people": "Estimate: 5.000–12.000 people",
+      "metric": "48",
+      "facts": [
+        "48",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "acc-official-hotels",
+      "label": "FIFA and officials",
+      "summary": "FIFA delegations, referees, sponsors, and media",
+      "people": "Estimate: 4.000–10.000 people",
+      "metric": "multisede",
+      "facts": [
+        "multisede",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "acc-catering",
+      "label": "Catering",
+      "summary": "Production, transport, service, and cleaning",
+      "people": "Estimate: 15.000–40.000 people",
+      "metric": "600+ sitios",
+      "facts": [
+        "600+ sitios",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "acc-nutrition",
+      "label": "Sports nutrition",
+      "summary": "Menus, allergies, supplements, and performance",
+      "people": "Estimate: 500–1.500 especialistas y soporte",
+      "metric": "48 equipos",
+      "facts": [
+        "48 equipos",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "acc-housekeeping",
+      "label": "Housekeeping and laundry",
+      "summary": "Rooms, kits, linens, waste, and hygiene",
+      "people": "Estimate: 10.000–30.000 people",
+      "metric": "24/7",
+      "facts": [
+        "24/7",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "acc-food-safety",
+      "label": "Food safety",
+      "summary": "Inspection, traceability, temperatures, and recall",
+      "people": "Estimate: 1.000–3.000 roles",
+      "metric": "3 countries",
+      "facts": [
+        "3 countries",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fan-ticketing",
+      "label": "Ticketing",
+      "summary": "Account, purchase, seat map, delivery, and support",
+      "people": "Estimate: 1.500–4.000 roles",
+      "metric": "6,2M+",
+      "facts": [
+        "6,2M+",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fan-payments",
+      "label": "Payments and fraud",
+      "summary": "Acquiring, risk, chargebacks, and reconciliation",
+      "people": "Estimate: 500–1.500 roles",
+      "metric": "global",
+      "facts": [
+        "global",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fan-entry",
+      "label": "Entry and validation",
+      "summary": "Turnstiles, troubleshooting, queues, and accessibility",
+      "people": "Estimate: 5.000–12.000 roles",
+      "metric": "16 venues",
+      "facts": [
+        "16 venues",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fan-services",
+      "label": "Spectator services",
+      "summary": "Information, lost and found, and issue resolution",
+      "people": "Estimate: 3.000–8.000 roles",
+      "metric": "multilingüe",
+      "facts": [
+        "multilingüe",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fan-festivals",
+      "label": "Fan Festivals",
+      "summary": "Screens, culture, vendors, security, and cleaning",
+      "people": "Estimate: 5.000–15.000 roles",
+      "metric": "7,7M+",
+      "facts": [
+        "7,7M+",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fan-accessibility",
+      "label": "Accessibility",
+      "summary": "ADC, haptic boards, sensory, mobility, and seating",
+      "people": "Estimate: 1.000–3.000 roles especializadas",
+      "metric": "todos",
+      "facts": [
+        "todos",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "brand-system",
+      "label": "Brand system",
+      "summary": "Emblem, type, color, guidelines, and approvals",
+      "people": "Estimate: 150–500 people",
+      "metric": "global",
+      "facts": [
+        "global",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "brand-host",
+      "label": "Host identities",
+      "summary": "Posters, local culture, templates, and city dressing",
+      "people": "Estimate: 500–2.000 people",
+      "metric": "16",
+      "facts": [
+        "16",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "brand-music",
+      "label": "Music and Sonic IDs",
+      "summary": "Composition, production, rights, and masters",
+      "people": "Estimate: 300–1.200 people",
+      "metric": "16",
+      "facts": [
+        "16",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "brand-content",
+      "label": "Photo, video, and social",
+      "summary": "Editorial, creators, capture, post, and distribution",
+      "people": "Estimate: 2.000–6.000 people",
+      "metric": "24/7",
+      "facts": [
+        "24/7",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "brand-campaigns",
+      "label": "Campaigns",
+      "summary": "Strategy, media, adaptations, and measurement",
+      "people": "Estimate: 2.000–8.000 people",
+      "metric": "global",
+      "facts": [
+        "global",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "brand-protection",
+      "label": "Brand protection",
+      "summary": "Permits, de-branding, monitoring, and enforcement",
+      "people": "Estimate: 500–2.000 roles",
+      "metric": "clean zones",
+      "facts": [
+        "clean zones",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "com-partners",
+      "label": "FIFA Partners",
+      "summary": "Top-tier contracts and global rights",
+      "people": "Estimate: 1.000–4.000 people activadas",
+      "metric": "global",
+      "facts": [
+        "global",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "com-activations",
+      "label": "Activations",
+      "summary": "Concept, build, staffing, hospitality, and leads",
+      "people": "Estimate: 5.000–20.000 people",
+      "metric": "multisede",
+      "facts": [
+        "multisede",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "com-licensing",
+      "label": "Licensing",
+      "summary": "Categories, approvals, royalties, and compliance",
+      "people": "Estimate: 500–1.500 roles",
+      "metric": "global",
+      "facts": [
+        "global",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "com-manufacturing",
+      "label": "Manufacturing",
+      "summary": "Textiles, souvenirs, packaging, and quality control",
+      "people": "Estimate: 10.000–60.000 people en cadena",
+      "metric": "global",
+      "facts": [
+        "global",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "com-retail",
+      "label": "Retail",
+      "summary": "Stock, POS, stores, e-commerce, and returns",
+      "people": "Estimate: 4.000–12.000 roles",
+      "metric": "Fanatics",
+      "facts": [
+        "Fanatics",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "com-equipment",
+      "label": "Ball and equipment",
+      "summary": "Design, connected ball, kits, and distribution",
+      "people": "Estimate: 2.000–8.000 people en cadena",
+      "metric": "48 equipos",
+      "facts": [
+        "48 equipos",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sus-climate",
+      "label": "Climate and carbon",
+      "summary": "Inventory, reduction, travel, and reporting",
+      "people": "Estimate: 300–1.000 especialistas y enlaces",
+      "metric": "baseline",
+      "facts": [
+        "baseline",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sus-resources",
+      "label": "Energy, water, and waste",
+      "summary": "Plans, metering, vendors, and diversion",
+      "people": "Estimate: 1.000–4.000 roles",
+      "metric": "600+ sitios",
+      "facts": [
+        "600+ sitios",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sus-sourcing",
+      "label": "Responsible sourcing",
+      "summary": "Clauses, due diligence, and supplier monitoring",
+      "people": "Estimate: 300–1.200 roles",
+      "metric": "ISO 20400",
+      "facts": [
+        "ISO 20400",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sus-human-rights",
+      "label": "Human rights",
+      "summary": "Risks, defenders, media, labor, and grievance",
+      "people": "Estimate: 300–1.000 especialistas y enlaces",
+      "metric": "3 countries",
+      "facts": [
+        "3 countries",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sus-community",
+      "label": "Community and legacy",
+      "summary": "Local programs, inclusion, and lasting benefits",
+      "people": "Estimate: 1.000–4.000 roles",
+      "metric": "16 venues",
+      "facts": [
+        "16 venues",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "sus-reporting",
+      "label": "Reporting and audit",
+      "summary": "KPIs, evidence, assurance, and publication",
+      "people": "Estimate: 200–800 roles; cierre futuro",
+      "metric": "posfinal",
+      "facts": [
+        "posfinal",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fin-budget",
+      "label": "Budget and FP&A",
+      "summary": "Business cases, forecast, control, and reporting",
+      "people": "Estimate: 500–1.500 roles",
+      "metric": "multientidad",
+      "facts": [
+        "multientidad",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fin-procurement",
+      "label": "Procurement and RFP",
+      "summary": "Sourcing, tenders, evaluation, and vendor management",
+      "people": "Estimate: 500–2.000 roles",
+      "metric": "public/private",
+      "facts": [
+        "public/private",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fin-contracts",
+      "label": "Legal and contracts",
+      "summary": "Venue, media, vendors, IP, privacy, and claims",
+      "people": "Estimate: 500–1.500 roles",
+      "metric": "3 countries",
+      "facts": [
+        "3 countries",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fin-insurance",
+      "label": "Insurance and risk",
+      "summary": "Liability, cancellation, accidents, and crisis",
+      "people": "Estimate: 200–800 roles",
+      "metric": "continuidad",
+      "facts": [
+        "continuidad",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fin-payments",
+      "label": "Invoices and payments",
+      "summary": "PO, receipt, invoice, approval, treasury, and reconcile",
+      "people": "Estimate: 500–1.500 roles",
+      "metric": "end-to-end",
+      "facts": [
+        "end-to-end",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    },
+    {
+      "id": "fin-audit",
+      "label": "Audit and close-out",
+      "summary": "Close-out, grants, taxes, evidence, and legacy",
+      "people": "Estimate: 300–1.000 roles; cierre futuro",
+      "metric": "posfinal",
+      "facts": [
+        "posfinal",
+        "Part of domain",
+        "Open to follow the operational chain"
+      ]
+    }
+  ]
+}
